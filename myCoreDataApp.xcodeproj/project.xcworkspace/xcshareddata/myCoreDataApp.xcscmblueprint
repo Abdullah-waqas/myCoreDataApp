@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3E3D3022E6D988DFBA6D73DA356EAD05F819154B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3E3D3022E6D988DFBA6D73DA356EAD05F819154B" : 9223372036854775807,
+    "2041290E8D19997C6FFC1C6C64C5360908F66724" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "648183F4-8B99-495C-BC75-A34B7CAA6649",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3E3D3022E6D988DFBA6D73DA356EAD05F819154B" : "coreData\/",
+    "2041290E8D19997C6FFC1C6C64C5360908F66724" : "GitRepo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "myCoreDataApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "myCoreDataApp\/myCoreDataApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Abdullah-waqas\/tableView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2041290E8D19997C6FFC1C6C64C5360908F66724"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Abdullah-waqas\/coreData.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3E3D3022E6D988DFBA6D73DA356EAD05F819154B"
+    }
+  ]
+}
