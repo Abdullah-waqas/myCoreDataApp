@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8014B1B1E62F56E008F04B2 /* customUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8014B181E62F56E008F04B2 /* customUIButton.swift */; };
+		B8014B1C1E62F56E008F04B2 /* CustomUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8014B191E62F56E008F04B2 /* CustomUIImage.swift */; };
+		B8014B1D1E62F56E008F04B2 /* customUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8014B1A1E62F56E008F04B2 /* customUITextField.swift */; };
 		B85625371E61DFB90002DA40 /* loginBg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B85625361E61DFB90002DA40 /* loginBg2.jpg */; };
 		B856253A1E61E0830002DA40 /* addImage1.png in Resources */ = {isa = PBXBuildFile; fileRef = B85625381E61E0830002DA40 /* addImage1.png */; };
 		B856253B1E61E0830002DA40 /* addImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = B85625391E61E0830002DA40 /* addImage2.png */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8014B181E62F56E008F04B2 /* customUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customUIButton.swift; sourceTree = "<group>"; };
+		B8014B191E62F56E008F04B2 /* CustomUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIImage.swift; sourceTree = "<group>"; };
+		B8014B1A1E62F56E008F04B2 /* customUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customUITextField.swift; sourceTree = "<group>"; };
 		B85625361E61DFB90002DA40 /* loginBg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBg2.jpg; sourceTree = "<group>"; };
 		B85625381E61E0830002DA40 /* addImage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addImage1.png; sourceTree = "<group>"; };
 		B85625391E61E0830002DA40 /* addImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addImage2.png; sourceTree = "<group>"; };
@@ -52,6 +58,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8014B1E1E62F574008F04B2 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				B8014B181E62F56E008F04B2 /* customUIButton.swift */,
+				B8014B191E62F56E008F04B2 /* CustomUIImage.swift */,
+				B8014B1A1E62F56E008F04B2 /* customUITextField.swift */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
 		B8FA12D01E5F50CC008EC161 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +92,7 @@
 				B8FA12DE1E5F50CC008EC161 /* ViewController.swift */,
 				B8FA12F11E5F6845008EC161 /* ProductTableViewController.swift */,
 				B8FA12F31E5F6870008EC161 /* ProductDetailTableViewController.swift */,
+				B8014B1E1E62F574008F04B2 /* Custom */,
 				B8FA12F51E5F6894008EC161 /* ProductTableViewCell.swift */,
 				B8FA12E01E5F50CC008EC161 /* Main.storyboard */,
 				B8FA12E61E5F50CC008EC161 /* Assets.xcassets */,
@@ -175,8 +192,11 @@
 			files = (
 				B8FA12E51E5F50CC008EC161 /* myCoreDataApp.xcdatamodeld in Sources */,
 				B8FA12DF1E5F50CC008EC161 /* ViewController.swift in Sources */,
+				B8014B1C1E62F56E008F04B2 /* CustomUIImage.swift in Sources */,
+				B8014B1D1E62F56E008F04B2 /* customUITextField.swift in Sources */,
 				B8FA12F21E5F6845008EC161 /* ProductTableViewController.swift in Sources */,
 				B8FA12F41E5F6870008EC161 /* ProductDetailTableViewController.swift in Sources */,
+				B8014B1B1E62F56E008F04B2 /* customUIButton.swift in Sources */,
 				B8FA12DD1E5F50CC008EC161 /* AppDelegate.swift in Sources */,
 				B8FA12F61E5F6894008EC161 /* ProductTableViewCell.swift in Sources */,
 			);

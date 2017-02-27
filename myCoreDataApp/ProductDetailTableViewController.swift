@@ -72,28 +72,28 @@ class ProductDetailTableViewController: UITableViewController, UINavigationContr
         navigationItem.rightBarButtonItem = saveBarButton
     }
     func saveProduct(){
-        print(setProductImage.image?.accessibilityLabel as Any)
-//        if( (setProductName.text!.isEmpty) || (setProductPrice.text!.isEmpty) || setProductDetail.text.isEmpty || setProductImage.image == nil){
-//            let alertController = UIAlertController(title: "OOPS", message: "Please fill all required information", preferredStyle: .alert)
-//            alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-//            self.present(alertController, animated: true, completion: nil)
-//            
-//        }else{
-//            if let moc = managedObjectContext {
-//                let product = Product(context: moc)
-//                product.productName = setProductName.text!
-//                product.productDescription = setProductDetail.text!
-//                product.productPrice = Float(setProductPrice.text!)!
-//                
-//                if  let data = UIImageJPEGRepresentation(self.setProductImage.image!, 1.0){
-//                    product.productImage = data as NSData
-//                }
-//                saveToCoreData(){
-//                    self.navigationController!.popToRootViewController(animated: true)
-//                }
-//            }
-//            
-//        }
+//        print(setProductImage.image!.accessibilityLabel!)
+        if( (setProductName.text!.isEmpty) || (setProductPrice.text!.isEmpty) || setProductDetail.text.isEmpty || setProductImage.image == nil){
+            let alertController = UIAlertController(title: "OOPS", message: "Please fill all required information", preferredStyle: .alert)
+            alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+            self.present(alertController, animated: true, completion: nil)
+            
+        }else{
+            if let moc = managedObjectContext {
+                let product = Product(context: moc)
+                product.productName = setProductName.text!
+                product.productDescription = setProductDetail.text!
+                product.productPrice = Float(setProductPrice.text!)!
+                
+                if  let data = UIImageJPEGRepresentation(self.setProductImage.image!, 1.0){
+                    product.productImage = data as NSData
+                }
+                saveToCoreData(){
+                    self.navigationController!.popToRootViewController(animated: true)
+                }
+            }
+            
+        }
     }
     func saveToCoreData(completion: @escaping () -> Void){
         managedObjectContext?.perform {
